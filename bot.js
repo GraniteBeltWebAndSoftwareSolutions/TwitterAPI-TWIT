@@ -9,13 +9,7 @@ console.log(config);
 var T = new Twit(config);
 
 
-
-
-
-
-
-
-
+// this does what it looks like it would do
 T.get('search/tweets', { q: 'kurtcobain since:2011-07-11', count: 100 }, function(err, data, response) {
   console.log(data)
 })
